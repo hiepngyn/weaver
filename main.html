@@ -1,19 +1,17 @@
 <div>
     <html>
-            <h1>
-                <link rel="stylesheet" href = "style.css">
-                Weaver
-            </h1>
-            <body>
-                <div id="row-1">
-                    <div class="greyBox">A</div>
-                    <div class="greyBox">A</div>
-                    <div class="greyBox">A</div>
-                    <div class="greyBox">A</div>
-                </div>
-            </body>
-        </link>
+        <head>
+            <link rel="stylesheet" href = "style.css">
+            Weaver
+        </head>            
+        <body>
+            <div id="row-start"></div>
+            <div id="new"></div>
+            <div id="row-final"></div>
+
+            <input type="text" id="user-input" maxlength="4" onkeydown="return /[a-zA-Z]/i.test(event.key)">
+            <script src="game.js"></script>
+        </body>
     </html>
 </div>
 
-<script src="game.js"></script>
