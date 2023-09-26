@@ -1,0 +1,43 @@
+body{
+    background-color: #121213;
+    color: white;
+    text-align: center;
+}
+
+.greyBox{
+    width: 75;
+    height: 75;
+    
+    border-radius: 15%;
+    margin: 5;
+    background-color: #3a3a3c;
+    display: inline-block;
+
+    font-size: 30;
+    font-family: "Helvetica";
+    font-weight: 900;
+    text-align: center;
+    line-height: 75px;
+
+
+}
+
+.whiteBox{
+    width: 75;
+    height: 75;
+
+    border-radius: 15%;
+    margin: 5;
+
+    color:black;
+    background-color: #ffffff;
+    display: inline-block;
+
+    font-size: 30;
+    font-family: "Helvetica";
+    font-weight: 900;
+    text-align: center;
+    line-height: 75px;
+
+
+}
